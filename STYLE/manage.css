@@ -47,6 +47,8 @@ body {
 }
 
 #info {
+	overflow: hidden;
+	overflow-y:scroll;
 	position: relative;
 	width: 500px;
 	height: 400px;
