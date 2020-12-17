@@ -9,13 +9,13 @@
 	</head>
 
 	<body>
-		
+		<button onclick="return select_all();" id="sel">Вибрати всю таблицю</button>
+		<button onclick="return select_ten();" id="sel">Вибрати перші десять значень</button>
+		<button onclick="return select_count();" id="sel">Вибрати к-сть студентів з ФБ-95</button>
 		<h3 align="center" id="message_1"></h3>
-		<button onclick="select_all()" id="sel">Вибрати всю таблицю</button>
-		<button onclick="select_ten()" id="sel">Вибрати перші десять значень</button>
-		<button onclick="select_count()" id="sel">Вибрати к-сть студентів з ФБ-95</button>
-		<a  href="form.html" id="back">Назад до форми</a>
+		<a href="form.html" id="back">Назад до форми</a>
+		
 
-		<script type="text/javascript" src="JS/script.js"></script>
+		<script type="text/javascript" src="JS/selects.js"></script>
 	</body>
 </html>
